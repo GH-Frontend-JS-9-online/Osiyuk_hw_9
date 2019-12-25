@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="level" id="levels">
+      <button id="easy">Easy</button>
+      <button id="hard">Hard</button>
+      <button id="ninja">Ninja</button>
+    </div>
+    <div class="main" id="main">
+      <div class="status"><h2>Status</h2>
+        <label>Food:</label><div id="food" class="bar"> 100%</div>
+        <label>Clean:</label><div id="clean" class="bar"> 100%</div>
+        <label>Happines:</label><div id="happines" class="bar"> 100%</div>
+        <label>health</label><div id="health" class="bar"> 100%</div>
+        <label>socialization</label><div id="social" class="bar"> 100%</div>
+        <label>money</label><div id="money" class="bar"> 100%</div>
+      </div>
+      <div class="buttons">
+      <button class="button" id="feed">Feed</button>
+      <button class="button" id="wash">Wash</button>
+      <button class="button" id="run">Run</button>
+      <button class="button" id="visitDoc">visit doctor</button>
+      <button class="button" id="goBar">go to bar</button>
+      <button class="button" id="goWork">go to work</button>
+      <button class="button" id="buyFood">buy food</button>
+      <button class="button" id="startBusin">start a business</button>
+      </div>
+      <div class="die_events" id="die_events">
+        <h3>You Lost</h3>
+        <button id="restart" onclick="Restart()">Restart</button>
+        <button onclick="chooseAnother()">ChooseAnother</button>
+      </div>
+      <div id="scoree"></div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

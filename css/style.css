@@ -1,0 +1,22 @@
+.bar{
+  background-color: green;
+  width: 100px;
+}
+#die_events{
+  display: none;
+}
+#main{
+  display: none;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 200px;
+  justify-content: space-around;
+}
+.button{
+  margin-top: 10px;
+  width: 90px;
+  height: 33px;
+}
